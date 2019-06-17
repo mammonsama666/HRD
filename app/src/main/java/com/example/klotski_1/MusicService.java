@@ -13,7 +13,6 @@ public class MusicService extends Service {
 
     @Override
     public void onCreate() {
-        // 初始化音乐资源
         try {
             mediaPlayer = MediaPlayer.create(this, R.raw.backgroundmusic);
 //            mediaPlayer.prepare();
@@ -25,11 +24,9 @@ public class MusicService extends Service {
 
     @Override
     public void onStart(Intent intent, int startId) {
-        //开始播放音乐
         if (mediaPlayer != null) {
             mediaPlayer.start();
             isRunning = true;
-            //注册回调函数，音乐播放完毕之后，音乐播放完毕的事件处理
             mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                 public void onCompletion(MediaPlayer mp) {
                     try {
@@ -58,7 +55,6 @@ public class MusicService extends Service {
 
     @Override
     public void onDestroy() {
-        // 服务停止时停止播放器并且释放资源
         if (mediaPlayer != null) {
             isRunning = false;
             mediaPlayer.stop();
