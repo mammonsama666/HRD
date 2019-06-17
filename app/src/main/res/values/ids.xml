@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="CaoCao" type="id" />
+    <item name="GuanYu" type="id" />
+    <item name="HuangZhong" type="id" />
+    <item name="MaChao" type="id" />
+    <item name="ZhaoYun" type="id" />
+    <item name="ZhangFei" type="id" />
+    <item name="Zu1" type="id" />
+    <item name="Zu2" type="id" />
+    <item name="Zu3" type="id" />
+    <item name="Zu4" type="id" />
+</resources>

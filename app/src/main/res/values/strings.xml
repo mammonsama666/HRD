@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">华容道</string>
+    <string name="alert_title">Success!</string>
+    <string name="alert_message1">恭喜您打破纪录！</string>
+    <string name="alert_message2">恭喜您通关成功！</string>
+    <string name="start_game">开始游戏</string>
+    <string name="about">游戏规则</string>
+    <string name="exit_game">退出游戏</string>
+    <string name="choose_level">选择关卡</string>
+    <string name="level_1">横刀立马</string>
+    <string name="game_title">華容道</string>
+    <string name="game_activity_level_name">横刀立马</string>
+    <string name="current_step_title">当前步数</string>
+    <string name="best_step_title">最佳步数</string>
+    <string name="_0">0</string>
+    <string name="return_text">返回</string>
+    <string name="reset_text">重置</string>
+    <string name="last_step_text">上一步</string>
+    <string name="about_title">游戏规则</string>
+    <string name="about_how_to_play">    华容道原是中国古代的一个地名，相传当年曹操曾经败走此地。由于当时的华容道是一片沼泽，所以曹操大军要割草填地，不少士兵更惨被活埋，惨烈非常。\n
+    通过移动各个棋子，帮助曹操从初始位置移到棋盘最下方中部，从出口逃走。不允许跨越棋子，还要设法用最少的步数把曹操移到出口。曹操逃出华容道的最大障碍是关羽，关羽立马华容道，一夫当关，万夫莫开。关羽与曹操当然是解开这一游戏的关键。四个刘备军兵是最灵活的，也最容易对付，如何发挥他们的作用也要充分考虑周全。</string>
+</resources>
